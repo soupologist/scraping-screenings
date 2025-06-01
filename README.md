@@ -7,3 +7,8 @@ I was the Joint Secretary of Movie Club BPHC, and this has always been something
 We have previously tried making juniors (slaves) manually go through old posts and update a common sheet, but this hasn't been a reliable way of getting this data, especially because the juniors don't find it very enjoyable to go through hundreds of posts and fill sheets with no reward in return.
 
 But with a cunnning combination of web scraping techniques and leveraging LLMs, we can finally try to get this data without any slave labour whatsoever.
+
+## Strategy
+Facebook doesn't really like it when you use scripts and bots to access their site so they will throw captchas at you to make it more difficult.
+
+So our strategy will be to scrape all the posts from the group and put it in a database. Then the data can be filtered and cleaned after that. 
